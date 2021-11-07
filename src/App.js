@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import MyCard from "./components/MyCard";
 import {useRef, useState} from "react";
 import {
     Alert,
     AppBar, Box,
     Button,
-    Card, CardActions,
+    Card,
     CardContent,
     CardMedia,
     Container,
@@ -15,7 +13,7 @@ import {
     Toolbar,
     Typography
 } from "@mui/material";
-import {Forward5, Pause, PersonalVideo, PhotoCamera, PlayArrow, Replay5} from "@mui/icons-material";
+import {Forward5, Pause, PersonalVideo, PlayArrow, Replay5} from "@mui/icons-material";
 import useStyles from "./Styles";
 
 const cards = [1]
